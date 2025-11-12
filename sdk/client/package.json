@@ -1,0 +1,29 @@
+{
+  "name": "@push-x402/client",
+  "version": "0.1.0",
+  "description": "Client SDK for handling HTTP 402 payment requests",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "x402",
+    "http-402",
+    "client",
+    "payments"
+  ],
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "files": [
+    "dist"
+  ]
+}

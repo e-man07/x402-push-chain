@@ -1,0 +1,29 @@
+{
+  "name": "@push-x402/server",
+  "version": "0.1.0",
+  "description": "Server SDK for creating HTTP 402 payment requirements",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "x402",
+    "http-402",
+    "server",
+    "payments"
+  ],
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "files": [
+    "dist"
+  ]
+}

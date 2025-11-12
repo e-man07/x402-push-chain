@@ -1,0 +1,32 @@
+{
+  "name": "@push-x402/middleware",
+  "version": "0.1.0",
+  "description": "Express middleware for x402 payment protection",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "x402",
+    "http-402",
+    "express",
+    "middleware"
+  ],
+  "dependencies": {
+    "@push-x402/server": "^0.1.0"
+  },
+  "peerDependencies": {
+    "express": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "files": [
+    "dist"
+  ]
+}

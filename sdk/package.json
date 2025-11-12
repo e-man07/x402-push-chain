@@ -1,0 +1,34 @@
+{
+  "name": "@push-x402/sdk",
+  "version": "0.1.0",
+  "description": "x402 Protocol SDK - Client and Server libraries for HTTP 402 payments",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server",
+    "middleware"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.{ts,json,md}\""
+  },
+  "keywords": [
+    "x402",
+    "http-402",
+    "payments",
+    "push-chain",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.3"
+  }
+}

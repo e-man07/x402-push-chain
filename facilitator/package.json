@@ -1,0 +1,30 @@
+{
+  "name": "@push-x402/facilitator",
+  "version": "0.1.0",
+  "description": "x402 Protocol Facilitator Service - Payment Verification and Settlement",
+  "private": true,
+  "workspaces": [
+    "verification-api",
+    "settlement-engine",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=verification-api",
+    "dev:settlement": "npm run dev --workspace=settlement-engine",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.{ts,json,md}\""
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
