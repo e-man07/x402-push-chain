@@ -11,7 +11,7 @@ Native x402 payment protocol implementation on Push Chain, matching Coinbase's x
 ## Project Status
 
 **Phase**: Planning & Architecture  
-**Approach**: Test-Driven Development (TDD)
+
 
 ## Quick Links
 
