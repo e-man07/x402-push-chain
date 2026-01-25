@@ -4,7 +4,7 @@ Native x402 payment protocol implementation on Push Chain, matching Coinbase's x
 
 ## Overview
 
-- **x402 Protocol**: HTTP 402 Payment Required based payment system
+- **x402 Protocol**: HTTP 402 Payment Required based payment system.
 - **Push Chain**: Universal L1 blockchain with EVM compatibility + cross-chain support
 - **Key Innovation**: Pay from any chain (Ethereum, Solana, etc.) using native wallets
 
